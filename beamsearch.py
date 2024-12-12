@@ -30,33 +30,33 @@ class Node:
         self.wins = wins
         self.path = path  #MCTS 路径
       
-def JudgePath(path, smiMaxLen):
-    return path[-1] != '$' and len(path) < smiMaxLen
+def JudgePath(path, selMaxLen):
+    return path[-1] != '$' and len(path) < selMaxLen
 
 def check_node(node, k):
     affinity = 500
     if node.path[-1] != '$':
         return affinity, ''.join(node.path[1:])
 
-    smile = ''.join(node.path[1:-1])
-    smile = sf.decoder(smile)
+    selfie = ''.join(node.path[1:-1])
+    selfie = sf.decoder(selfie)
     try:
-        m = Chem.MolFromSmiles(smile)
+        m = Chem.MolFromselfies(selfie)
     except:
         pass
     if m:
-        logger.info(smile)
-        affinity = CaculateAffinity(smile, file_protein=pro_file[k], file_lig_ref=ligand_file[k], out_path=resFolderPath)
+        logger.info(selfie)
+        affinity = CaculateAffinity(selfie, file_protein=pro_file[k], file_lig_ref=ligand_file[k], out_path=resFolderPath)
         
-    return affinity, smile
+    return affinity, selfie
 
 @torch.no_grad()
-def sample(model, path, vocabulary, proVoc, smiMaxLen, proMaxLen, device, sampleTimes, protein_seq):
+def sample(model, path, vocabulary, proVoc, selMaxLen, proMaxLen, device, sampleTimes, protein_seq):
     model.eval()
 
     pathList = path[:]
     length = len(pathList)
-    pathList.extend(['^'] * (smiMaxLen - length))
+    pathList.extend(['^'] * (selMaxLen - length))
 
     protein = '&' + protein_seq +'$'
     proList = list(protein)
@@ -65,22 +65,25 @@ def sample(model, path, vocabulary, proVoc, smiMaxLen, proMaxLen, device, sample
     proList.extend(['^'] * (proMaxLen - lp))
     
     proteinInput = [proVoc.index(pro) for pro in proList]
-    currentInput = [vocabulary.index(smi) for smi in pathList]
+    currentInput = [vocabulary.index(sel) for sel in pathList]
     
     src = torch.as_tensor([proteinInput]).to(device)
     tgt = torch.as_tensor([currentInput]).to(device)
 
-    smiMask = [1] * length + [0] * (smiMaxLen - length)
-    smiMask = torch.as_tensor([smiMask]).to(device)
+    selMask = [1] * length + [0] * (selMaxLen - length)
+    selMask = torch.as_tensor([selMask]).to(device)
     proMask = [1] * lp + [0] * (proMaxLen - lp)
     proMask = torch.as_tensor([proMask]).to(device)
 
-    tgt_mask = nn.Transformer.generate_square_subsequent_mask(model, smiMaxLen).tolist()
+    # tgt_mask = nn.Transformer.generate_square_subsequent_mask(model, selMaxLen).tolist()
+    # tgt_mask = [tgt_mask] * 1
+    # tgt_mask = torch.as_tensor(tgt_mask).to(device)
+    tgt_mask = nn.Transformer.generate_square_subsequent_mask(selMaxLen).tolist()
     tgt_mask = [tgt_mask] * 1
     tgt_mask = torch.as_tensor(tgt_mask).to(device)
 
     sl = length - 1
-    out = model(src, tgt, smiMask, proMask, tgt_mask)[:, sl, :]
+    out = model(src, tgt, selMask, proMask, tgt_mask)[:, sl, :]
     out = out.tolist()[0]
     pr = np.exp(out) / np.sum(np.exp(out))
     prList = np.random.multinomial(1, pr, sampleTimes)
@@ -102,32 +105,46 @@ def sample(model, path, vocabulary, proVoc, smiMaxLen, proMaxLen, device, sample
 
 # @logger.catch
 def BeamSearch(experimentId, modelName, root, k, beamSize=10):
-    device = torch.device("cuda:"+args.device if torch.cuda.is_available() else "cpu")
-
-    device_ids = [int(args.device)] # 10卡机
+    device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+    # device_ids = [int(args.device)] # 10卡机
+    device_ids = [0] # 1卡机
 
     with open(os.path.join(experimentId, 'settings.json'), 'r') as f:
         s = json.load(f)
         
     model = DrugTransformer(**s)
     model = torch.nn.DataParallel(model, device_ids=device_ids) # 指定要用到的设备
-    if torch.cuda.is_available():
-        model.load_state_dict(torch.load(experimentId +'/model/'+ modelName, map_location={'cuda:0':'cuda:'+args.device}))
+    if torch.backends.mps.is_available():
+        model.load_state_dict(torch.load(
+            experimentId + '/model/' + modelName, 
+            map_location=device  # 加载到 MPS
+        ))
+    elif torch.cuda.is_available():
+        device = torch.device('cuda:' + args.device)  # 使用 CUDA
+        model.load_state_dict(torch.load(
+            experimentId + '/model/' + modelName, 
+            map_location={'cuda:0': 'cuda:' + args.device}
+        ))
     else:
-        model.load_state_dict(torch.load(experimentId +'/model/'+ modelName, map_location=torch.device('cpu')))
+        device = torch.device('cpu')  # 回退到 CPU
+        model.load_state_dict(torch.load(
+            experimentId + '/model/' + modelName, 
+            map_location=device  # 加载到 CPU
+        ))
+
     model.to(device)
     model.eval()
     
-    vocabulary = s['smiVoc']
+    vocabulary = s['selVoc']
     proVoc = s['proVoc']
-    smiMaxLen = int(s['smiMaxLen'])
+    selMaxLen = int(s['selMaxLen'])
     proMaxLen = int(s['proMaxLen'])
 
     groundIndex = 0 # MCTS Node唯一计数
     rootNode = Node(path=['&'])
     allScore = []
-    allValidSmiles = []
-    allSmiles = []
+    allValidselfies = []
+    allselfies = []
 
     successNode = []
     nodeList = [rootNode]
@@ -135,14 +152,14 @@ def BeamSearch(experimentId, modelName, root, k, beamSize=10):
         beam_expand_node = []
 
         for node in nodeList:
-            if JudgePath(node.path, smiMaxLen):
-                atomListExpanded, logpListExpanded = sample(model, node.path, vocabulary, proVoc, smiMaxLen, proMaxLen, device,30, protein_seq)
+            if JudgePath(node.path, selMaxLen):
+                atomListExpanded, logpListExpanded = sample(model, node.path, vocabulary, proVoc, selMaxLen, proMaxLen, device, 30, protein_seq)
                 beam_expand_node.extend([Node(path=node.path + [atom], wins=node.wins+logpListExpanded[idx]) for idx, atom in enumerate(atomListExpanded)])
             else:
-                affinity, smile = check_node(node, k)
-                allSmiles.append(smile)
+                affinity, selfie = check_node(node, k)
+                allselfies.append(selfie)
                 if affinity != 500:
-                    allValidSmiles.append(smile)
+                    allValidselfies.append(selfie)
                     allScore.append(-affinity)
                     successNode.append(node)
                     groundIndex += 1
@@ -159,21 +176,21 @@ def BeamSearch(experimentId, modelName, root, k, beamSize=10):
         json.dump({
             'pdbid': test_pdblist[k],
             'score': allScore,
-            'validSmiles': allValidSmiles,
-            'allSmiles': allSmiles
+            'validselfies': allValidselfies,
+            'allselfies': allselfies
         }, f)
         
-    logger.success('valid: {}'.format(len(allValidSmiles) / len(allSmiles)))
+    logger.success('valid: {}'.format(len(allValidselfies) / len(allselfies)))
     
     return allScore
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-k', type=int, default=0)
-    parser.add_argument('--device', type=str, default='3')
+    parser.add_argument('--device', type=str, default='0')
     parser.add_argument('-bs', type=int, default=10)
     parser.add_argument('--source', type=str, default='new')
-    parser.add_argument('-p', type=str, default='LT', help='pretrained model')
+    parser.add_argument('-p', type=str, default='test3', help='pretrained model')
 
     args = parser.parse_args()
 

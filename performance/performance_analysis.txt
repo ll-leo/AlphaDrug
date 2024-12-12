@@ -1,0 +1,5 @@
+LogP: Mean = 1.50, Min = -0.69, Max = 5.11
+QED: Mean = 0.70, Min = 0.14, Max = 0.91
+SA Score: Mean = N/A
+NP Score: Mean = 3.37
+Docking Uniqueness: 20.13%

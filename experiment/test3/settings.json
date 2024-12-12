@@ -1,0 +1,18 @@
+{
+    "remark": "", 
+    "selVoc": ["#Branch1", "#Branch2", "#C", "#C-1", "#N", "$", "&", "-/Ring1", "-\\Ring2", "/C", "/C@@H1", "/C@H1", "/N", "/O", "/S", "=Branch1", "=Branch2", "=C", "=N", "=N+1", "=N-1", "=NH1+1", "=O", "=Ring1", "=Ring2", "=S", "=S+1", "B", "B-1", "Br", "Branch1", "Branch2", "C", "C@", "C@@", "C@@H1", "C@H1", "Cl", "F", "I", "N", "N+1", "N-1", "N@@", "NH1", "NH1+1", "NH2+1", "NH3+1", "O", "O-1", "P", "Ring1", "Ring2", "Ru", "S", "S+1", "Sb", "Si", "\\C", "\\C@@H1", "\\C@H1", "\\N", "\\O", "\\S", "^"], 
+    "proVoc": ["$", "&", "A", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y", "^"], 
+    "selMaxLen": 129, 
+    "proMaxLen": 1001, 
+    "selPaddingIdx": 64, 
+    "proPaddingIdx": 22, 
+    "sel_voc_len": 65, 
+    "pro_voc_len": 23, 
+    "batchSize": 32, 
+    "epoch": 50, 
+    "lr": 0.001, 
+    "d_model": 96, 
+    "dim_feedforward": 256, 
+    "num_layers": 4, 
+    "nhead": 4
+}

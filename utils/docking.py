@@ -17,6 +17,7 @@ import json
 import time
 import numpy as np
 from rdkit.ML.Descriptors import MoleculeDescriptors
+import selfies as sf
 
 def ProteinParser(pdbid):
     

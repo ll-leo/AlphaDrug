@@ -35,10 +35,14 @@ def train(model, trainLoader, selVoc, proVoc, device):
         selMask = torch.as_tensor(selMask).to(device)
         label = torch.as_tensor(label).to(device)
         
-        tgt_mask = nn.Transformer.generate_square_subsequent_mask(model, selfies.shape[1]).tolist()
-        # tgt_mask = [tgt_mask] * len(device_ids)
+        # tgt_mask = nn.Transformer.generate_square_subsequent_mask(model, selfies.shape[1]).tolist()
+        # # tgt_mask = [tgt_mask] * len(device_ids)
+        # tgt_mask = torch.as_tensor(tgt_mask).to(device)
+
+        tgt_mask = nn.Transformer.generate_square_subsequent_mask(selfies.shape[1]).tolist()
+        tgt_mask = [tgt_mask] * 1
         tgt_mask = torch.as_tensor(tgt_mask).to(device)
-        
+
         out = model(protein, selfies, selMask, proMask, tgt_mask)
         # tgt = torch.argmax(out, dim=-1)
         cacc = ((torch.eq(torch.argmax(out, dim=-1) * selMask, label * selMask).sum() - (selMask.shape[0] * selMask.shape[1] - (selMask).sum())) / (selMask).sum().float()).item()
@@ -74,9 +78,14 @@ def valid(model, validLoader, selVoc, proVoc, device):
         selMask = torch.as_tensor(selMask).to(device)
         label = torch.as_tensor(label).to(device)
         
-        tgt_mask = nn.Transformer.generate_square_subsequent_mask(model,selfies.shape[1]).tolist()
-        # tgt_mask = [tgt_mask] * len(device_ids)
+        # tgt_mask = nn.Transformer.generate_square_subsequent_mask(model,selfies.shape[1]).tolist()
+        # # tgt_mask = [tgt_mask] * len(device_ids)
+        # tgt_mask = torch.as_tensor(tgt_mask).to(device)
+
+        tgt_mask = nn.Transformer.generate_square_subsequent_mask(selfies.shape[1]).tolist()
+        tgt_mask = [tgt_mask] * 1
         tgt_mask = torch.as_tensor(tgt_mask).to(device)
+
 
         out = model(protein, selfies, selMask, proMask, tgt_mask)
         
@@ -117,8 +126,8 @@ if __name__ == '__main__':
     logger.success(args)
     print(torch.__version__)  # Check PyTorch version
     print(torch.version.cuda)
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    device_ids = [int(i) for i in args.device.split(',') if i!=''] # 10卡机
+    device = torch.device("mps")
+    device_ids = [0]
     batchSize = args.bs * len(device_ids)
     epoch = args.epoch
     lr = 1e-3
@@ -177,7 +186,9 @@ if __name__ == '__main__':
         logger.info('EPOCH: {} 验证'.format(i))
         d2  = valid(model, validLoader, config.selVoc, config.proVoc, device)
         
-        logdf = logdf.append(pd.DataFrame([d1+d2], columns=columns), ignore_index=True)
+        # logdf = logdf.append(pd.DataFrame([d1+d2], columns=columns), ignore_index=True)
+        logdf = pd.concat([logdf, pd.DataFrame([d1 + d2], columns=columns)], ignore_index=True)
+
         trainingVis(logdf, batchSize, lr, vis_folder)
         
         if args.l:

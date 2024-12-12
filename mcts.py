@@ -65,7 +65,8 @@ class Node:
     def CaculatePUCT(self):
         if not self.parentNode:
             return 0.0 # 画图用的
-        c = 1.5
+        # c = 1.5
+        c = 1.5 if self.visits > 10 else 2.5 # 访问次数少时倾向探索
         if QMAX == QMIN:
             wins = 0
         else:
@@ -99,10 +100,18 @@ def Select(rootNode):
         if nodeStatus != 4:
             return rootNode, nodeStatus
   
+# def Expand(rootNode, atomList, plist):
+#     if JudgePath(rootNode.path, rootNode.selMaxLen):
+#         for i, atom in enumerate(atomList):
+#             rootNode.AddNode(atom, plist[i])
+        
 def Expand(rootNode, atomList, plist):
     if JudgePath(rootNode.path, rootNode.selMaxLen):
-        for i, atom in enumerate(atomList):
-            rootNode.AddNode(atom, plist[i])
+        k = 5  # 仅扩展概率最高的前 k 个分子
+        top_indices = np.argsort(plist)[-k:]
+        for i in top_indices:
+            rootNode.AddNode(atomList[i], plist[i])
+
 
 def Update(node, wins):
     while node:
@@ -126,44 +135,99 @@ def rollout(node, model):
     allScore = []
     allValidselfies = []
     allSelfies = []
-
     while JudgePath(path, selMaxLen):
         # 快速走子
         atomListExpanded, pListExpanded = sample(model, path, vocabulary, proVoc, selMaxLen, proMaxLen, device, 30, protein_seq)
+        if not pListExpanded:
+            # 处理空的 pListExpanded，例如跳过当前迭代或终止循环
+            break
         
         m = np.max(pListExpanded)
         indices = np.nonzero(pListExpanded == m)[0]
         ind=rd.choice(indices)
         path.append(atomListExpanded[ind])
-    
-    if path[-1] == '$':
-        selfiesK = ''.join([f'[{atom}]' for atom in path[1:-1]])
-        allSelfies.append(selfiesK)
-        try:
-            selfiesK = sf.decoder(selfiesK)
-            mols = Chem.MolFromSmiles(selfiesK)
-        except:
-            pass
-        if mols and len(selfiesK) < selMaxLen:
-            global infoma
-            if selfiesK in infoma:
-                affinity = infoma[selfiesK]
-            else:
-                affinity = CaculateAffinity(selfiesK, file_protein=pro_file[args.k], file_lig_ref=ligand_file[args.k], out_path=resFolderPath)
-                infoma[selfiesK] = affinity
+    # if path[-1] == '$':
+    #     # selfiesK = ''.join([f'[{atom}]' for atom in path[1:-1]])
+    #     selfiesK = ''.join(path[1:-1])
+    #     allSelfies.append(selfiesK)
+    #     try:
+    #         selfiesK = sf.decoder(selfiesK)
+    #         mols = Chem.MolFromSmiles(selfiesK)
+    #     except:
+    #         pass
+    #     if mols and len(selfiesK) < selMaxLen:
+    #         global infoma
+    #         if selfiesK in infoma:
+    #             affinity = infoma[selfiesK]
+    #         else:
+    #             affinity = CaculateAffinity(selfiesK, file_protein=pro_file[args.k], file_lig_ref=ligand_file[args.k], out_path=resFolderPath)
+    #             infoma[selfiesK] = affinity
             
-            if affinity == 500:
-                Update(node, QMIN)
-            else:
-                logger.success(selfiesK + '       ' + str(-affinity))
-                Update(node, -affinity)
-                allScore.append(-affinity)
-                allValidselfies.append(selfiesK)
-        else:
-            logger.error(f"invalid: {''.join([f'[{atom}]' for atom in path])}")
-            Update(node, QMIN)
+    #         if affinity == 500:
+    #             Update(node, QMIN)
+    #         else:
+    #             logger.success(selfiesK + '       ' + str(-affinity))
+    #             Update(node, -affinity)
+    #             allScore.append(-affinity)
+    #             allValidselfies.append(selfiesK)
+    #     else:
+    #         # logger.error(f"invalid: {''.join([f'[{atom}]' for atom in path])}")
+    #         logger.error(f"invalid: {''.join(path)}")
+    #         Update(node, QMIN)
+    # else:
+    #     # logger.warning(f"Abnormal ending: {''.join([f'[{atom}]' for atom in path])}")
+    #     logger.warning(f"Abnormal ending: {''.join(path)}")
+    #     Update(node, QMIN)
+    
+    if path[0] == '&':
+        path = path[1:]
     else:
-        logger.warning(f"Abnormal ending: {''.join([f'[{atom}]' for atom in path])}")
+        path = path
+
+    if path[-1] == '$':
+        selfiesK = ''.join([f'[{atom}]' for atom in path[0:-1]])
+        # selfiesK = ''.join(path[0:-1])
+    else:
+        selfiesK = ''.join([f'[{atom}]' for atom in path[0:]])
+        # selfiesK = ''.join(path[0:])
+    allSelfies.append(selfiesK)
+    try:
+        # 尝试将 SELFIES 解码为 SMILES
+        decoded_smiles = sf.decoder(selfiesK)
+        logger.info(f"Decoded SELFIES: {decoded_smiles}")
+        selfiesK = decoded_smiles  # 将解码后的 SELFIES 替换为 SMILES
+    except sf.DecoderError:
+        logger.info(f"Assuming input is SMILES: {selfiesK}")
+
+    # 验证 SMILES 的有效性
+    mols = Chem.MolFromSmiles(selfiesK)
+    if mols and len(selfiesK) < selMaxLen:
+        global infoma
+        # 检查是否已计算亲和力
+        if selfiesK in infoma:
+            affinity = infoma[selfiesK]
+        else:
+            # 计算亲和力
+            affinity = CaculateAffinity(
+                selfiesK, 
+                file_protein=pro_file[args.k], 
+                file_lig_ref=ligand_file[args.k], 
+                out_path=resFolderPath
+            )
+            infoma[selfiesK] = affinity
+
+        # 处理特殊情况的亲和力
+        if affinity == 500:
+            Update(node, QMIN)
+        else:
+            logger.success(f"Valid molecule: {selfiesK} with affinity: {-affinity}")
+            Update(node, -affinity)
+            allScore.append(-affinity)
+            allValidselfies.append(selfiesK)
+    else:
+        # 无效的分子，记录日志并更新节点
+        # logger.error(f"Invalid molecule: {''.join(path)}")
+        logger.error(f"Invalid molecule: {''.join([f'[{atom}]' for atom in path[0:-1]])}")
         Update(node, QMIN)
 
     return allScore, allValidselfies, allSelfies
@@ -188,7 +252,6 @@ def MCTS(rootNode):
         # VisualizeInterMCTS(rootNode, modelName, './', times, QMAX, QMIN, QE)
 
         #rollout
-
         score, validSelfies, aSelfies = rollout(node, model)
         allScore.extend(score)
         allValidSelfies.extend(validSelfies)
@@ -196,7 +259,12 @@ def MCTS(rootNode):
 
         #MCTS EXPAND 
         atomList, logpListExpanded = sample(model, node.path, vocabulary, proVoc, selMaxLen, proMaxLen, device, 30, protein_seq)
-        pListExpanded = [np.exp(p) for p in logpListExpanded]
+        # pListExpanded = [np.exp(p) for p in logpListExpanded]
+
+        # 加入温度缩放
+        temperature = 0.8
+        pListExpanded = [np.exp(p / temperature) for p in logpListExpanded]
+        
         Expand(node, atomList, pListExpanded)
 
         
@@ -237,8 +305,8 @@ if __name__ == '__main__':
     experimentId = os.path.join('experiment', args.p)
     ST = time.time()
 
-    modelName = '49.pt'
-    hpc_device = "gpu" if torch.cuda.is_available() else "cpu"
+    modelName = '30.pt'
+    hpc_device = "mps" if torch.backends.mps.is_available() else "cpu"
     mode = "max" if args.max else "freq"
     resFolder = '%s_%s_mcts_%s_%s_%s_%s_%s'%(hpc_device,mode,simulation_times, timeLable(), modelName, args.k, test_pdblist[args.k])
 
@@ -256,14 +324,17 @@ if __name__ == '__main__':
     else:
         
         s = readSettings(experimentId)
+        s.selVoc = s.smiVoc
+        s.selMaxLen = s.smiMaxLen
+
         vocabulary = s.selVoc
         proVoc = s.proVoc
         selMaxLen = int(s.selMaxLen)
         proMaxLen = int(s.proMaxLen)
         
-        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-        device_ids = [i for i in range(torch.cuda.device_count())] # 10卡机
-        
+        device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+        device_ids = [0]  # 在 Mac 上多卡配置无效，保留单个设备
+
         model = DrugTransformer(**s)
         # model = torch.nn.DataParallel(model, device_ids=device_ids) # 指定要用到的设备
         model = model.to(device) # 模型加载到设备0
@@ -291,22 +362,40 @@ if __name__ == '__main__':
 
         alphaSel = ''
         affinity = 500
-        if node.path[-1] == '$':
-            alphaSel = ''.join([f'[{atom}]' for atom in node.path[1:-1]])
-            alphaSel = sf.decoder(alphaSel)
-            if Chem.MolFromSmiles(alphaSel):
-                logger.success(alphaSel)
-                if alphaSel in infoma:
-                    affinity = infoma[alphaSel]
-                else:
-                    affinity = CaculateAffinity(alphaSel, file_protein=pro_file[args.k], file_lig_ref=ligand_file[args.k], out_path=resFolderPath)
-                # affinity = CaculateAffinity(alphaSmi, file_protein=pro_file[args.k], file_lig_ref=ligand_file[args.k])
-                
-                logger.success(-affinity)
-            else:
-                logger.error('invalid: ' + alphaSel)
+        if node.path[0] == '&':
+            node.path = node.path[1:]
         else:
-            logger.error('abnormal ending: ' + ''.join(node.path))
+            node.path = node.path
+        if node.path[-1] == '$':
+            # alphaSel = ''.join(node.path[1:-1])  # 确保拼接到最后一个字符之前
+            alphaSel = ''.join([f'[{atom}]' for atom in node.path[1:-1]])
+        else:
+            # alphaSel = ''.join(node.path[1:])    # 如果未以 `$` 结尾，直接拼接
+            alphaSel = ''.join([f'[{atom}]' for atom in node.path[1:]])
+        
+        # alphaSel = '&' + alphaSel + '$'
+        # alphaSel = sf.decoder(alphaSel) # selfies to smiles
+        try:
+            smi = sf.decoder(alphaSel)  # 尝试将 SELFIES 转换为 SMILES
+            logger.info(f"Decoded SELFIES to SMILES: {smi}")
+        except sf.DecoderError:
+            # 如果不是 SELFIES，直接假定是 SMILES
+            smi = alphaSel
+        
+        # 检查 SMILES 是否有效
+        if Chem.MolFromSmiles(smi):
+            logger.success(f"Valid SMILES: {smi}")
+            
+            # 计算亲和力（affinity）
+            if smi in infoma:
+                affinity = infoma[smi]
+            else:
+                affinity = CaculateAffinity(smi, file_protein=pro_file[args.k], file_lig_ref=ligand_file[args.k], out_path=resFolderPath)
+            
+            logger.success(f"Affinity: {-affinity}")
+        else:
+            logger.error(f"Invalid molecule: {alphaSel} (after decoding: {smi})")
+
 
         saveMCTSRes(resFolderPath, {
                 'score': allScores,

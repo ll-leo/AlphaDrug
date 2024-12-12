@@ -1,0 +1,1100 @@
+2024-12-11 15:26:23.097 | INFO     | __main__:rollout:197 - Decoded SELFIES: CC(C)CC=NC=CC1OCC2=CC=CC=C2N1
+2024-12-11 15:26:23.134 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733901983.1343548.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733901983.1349602
+2024-12-11 15:26:31.038 | SUCCESS  | __main__:rollout:223 - Valid molecule: CC(C)CC=NC=CC1OCC2=CC=CC=C2N1 with affinity: 7.1
+2024-12-11 15:26:32.074 | INFO     | __main__:rollout:197 - Decoded SELFIES: CC(C)CC=NC=CC1OCC2=CC=CC=C2N1
+2024-12-11 15:26:32.074 | SUCCESS  | __main__:rollout:223 - Valid molecule: CC(C)CC=NC=CC1OCC2=CC=CC=C2N1 with affinity: 7.1
+2024-12-11 15:26:33.008 | INFO     | __main__:rollout:197 - Decoded SELFIES: CC(C)CC=NC=CC1OCC2=CC=CC=C2N1
+2024-12-11 15:26:33.009 | SUCCESS  | __main__:rollout:223 - Valid molecule: CC(C)CC=NC=CC1OCC2=CC=CC=C2N1 with affinity: 7.1
+2024-12-11 15:26:34.061 | INFO     | __main__:rollout:197 - Decoded SELFIES: OC1=CC=CC=C1NC2CCC3CC2NC4=CC=CC=C34
+2024-12-11 15:26:34.089 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733901994.089203.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733901994.089664
+2024-12-11 15:26:41.646 | SUCCESS  | __main__:rollout:223 - Valid molecule: OC1=CC=CC=C1NC2CCC3CC2NC4=CC=CC=C34 with affinity: 8.3
+2024-12-11 15:26:42.344 | INFO     | __main__:rollout:197 - Decoded SELFIES: CNCCC(CC1=CC=CC=C1)=S
+2024-12-11 15:26:42.352 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902002.352135.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902002.352544
+2024-12-11 15:26:48.954 | SUCCESS  | __main__:rollout:223 - Valid molecule: CNCCC(CC1=CC=CC=C1)=S with affinity: 5.3
+2024-12-11 15:26:49.875 | INFO     | __main__:rollout:197 - Decoded SELFIES: CC(C)CC=NC=CC1OCC2=CC=CC=C2N1
+2024-12-11 15:26:49.875 | SUCCESS  | __main__:rollout:223 - Valid molecule: CC(C)CC=NC=CC1OCC2=CC=CC=C2N1 with affinity: 7.1
+2024-12-11 15:26:50.805 | INFO     | __main__:rollout:197 - Decoded SELFIES: CCCCCCCC1=CC2=CC(C3=CC=COC3)=C12
+2024-12-11 15:26:50.825 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902010.824862.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902010.825353
+2024-12-11 15:27:00.573 | SUCCESS  | __main__:rollout:223 - Valid molecule: CCCCCCCC1=CC2=CC(C3=CC=COC3)=C12 with affinity: 6.5
+2024-12-11 15:27:02.121 | INFO     | __main__:rollout:197 - Decoded SELFIES: CC1=CC=C(C=C1C(O)=O)C(=O)NOCCOCC=CN2C=CC=C(Cl)C(Cl)=C2
+2024-12-11 15:27:02.159 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902022.159159.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902022.159692
+2024-12-11 15:27:26.617 | SUCCESS  | __main__:rollout:223 - Valid molecule: CC1=CC=C(C=C1C(O)=O)C(=O)NOCCOCC=CN2C=CC=C(Cl)C(Cl)=C2 with affinity: 7.4
+2024-12-11 15:27:27.399 | INFO     | __main__:rollout:197 - Decoded SELFIES: CC(=O)NCCC1CCCC2=CC=CC=C12
+2024-12-11 15:27:27.412 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902047.412377.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902047.412858
+2024-12-11 15:27:33.337 | SUCCESS  | __main__:rollout:223 - Valid molecule: CC(=O)NCCC1CCCC2=CC=CC=C12 with affinity: 6.7
+2024-12-11 15:27:33.964 | INFO     | __main__:rollout:197 - Decoded SELFIES: NC=NC1=CC=CC=C1C=C
+2024-12-11 15:27:33.970 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902053.970331.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902053.970725
+2024-12-11 15:27:38.259 | SUCCESS  | __main__:rollout:223 - Valid molecule: NC=NC1=CC=CC=C1C=C with affinity: 5.7
+2024-12-11 15:27:38.315 | INFO     | __main__:MCTS:277 - [0.0, 0.1111111111111111, 0.1111111111111111, 0.7777777777777778]
+2024-12-11 15:27:38.853 | INFO     | __main__:rollout:197 - Decoded SELFIES: NC=NC1=CC=CC=C1C=C
+2024-12-11 15:27:38.853 | SUCCESS  | __main__:rollout:223 - Valid molecule: NC=NC1=CC=CC=C1C=C with affinity: 5.7
+2024-12-11 15:27:39.452 | INFO     | __main__:rollout:197 - Decoded SELFIES: NC=NC1=CC=CC=C1C=C
+2024-12-11 15:27:39.452 | SUCCESS  | __main__:rollout:223 - Valid molecule: NC=NC1=CC=CC=C1C=C with affinity: 5.7
+2024-12-11 15:27:39.949 | INFO     | __main__:rollout:197 - Decoded SELFIES: NC=NC1=CC=CC=C1C=C
+2024-12-11 15:27:39.949 | SUCCESS  | __main__:rollout:223 - Valid molecule: NC=NC1=CC=CC=C1C=C with affinity: 5.7
+2024-12-11 15:27:40.739 | INFO     | __main__:rollout:197 - Decoded SELFIES: N#CC=CC=C1CC(C(=O)NC2CC2)=C1
+2024-12-11 15:27:40.749 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902060.748649.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902060.749074
+2024-12-11 15:27:46.987 | SUCCESS  | __main__:rollout:223 - Valid molecule: N#CC=CC=C1CC(C(=O)NC2CC2)=C1 with affinity: 5.5
+2024-12-11 15:27:47.468 | INFO     | __main__:rollout:197 - Decoded SELFIES: NC=NC1=CC=CC=C1C=C
+2024-12-11 15:27:47.468 | SUCCESS  | __main__:rollout:223 - Valid molecule: NC=NC1=CC=CC=C1C=C with affinity: 5.7
+2024-12-11 15:27:47.899 | INFO     | __main__:rollout:197 - Decoded SELFIES: NC=NC1=CC=CC=C1C=C
+2024-12-11 15:27:47.900 | SUCCESS  | __main__:rollout:223 - Valid molecule: NC=NC1=CC=CC=C1C=C with affinity: 5.7
+2024-12-11 15:27:48.893 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:27:50.920 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902070.920136.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902070.920512
+2024-12-11 15:27:51.590 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:27:52.021 | INFO     | __main__:rollout:197 - Decoded SELFIES: NC=NC1=CC=CC=C1C=C
+2024-12-11 15:27:52.021 | SUCCESS  | __main__:rollout:223 - Valid molecule: NC=NC1=CC=CC=C1C=C with affinity: 5.7
+2024-12-11 15:27:52.549 | INFO     | __main__:rollout:197 - Decoded SELFIES: N=C1CCC=CC=CC=C1
+2024-12-11 15:27:52.557 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902072.5570428.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902072.557421
+2024-12-11 15:27:55.345 | SUCCESS  | __main__:rollout:223 - Valid molecule: N=C1CCC=CC=CC=C1 with affinity: 5.8
+2024-12-11 15:27:55.769 | INFO     | __main__:rollout:197 - Decoded SELFIES: NC=NC1=CC=CC=C1C=C
+2024-12-11 15:27:55.769 | SUCCESS  | __main__:rollout:223 - Valid molecule: NC=NC1=CC=CC=C1C=C with affinity: 5.7
+2024-12-11 15:27:55.805 | INFO     | __main__:MCTS:277 - [0.1, 0.1, 0.1, 0.7]
+2024-12-11 15:27:56.837 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:27:57.781 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:27:58.713 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:27:59.594 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:00.466 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:01.260 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:02.081 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:02.834 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:03.588 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:04.278 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:04.314 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:28:04.944 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:05.665 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F
+2024-12-11 15:28:05.681 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902085.680885.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902085.681335
+2024-12-11 15:28:13.636 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F with affinity: 6.9
+2024-12-11 15:28:14.731 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC1NC=NC2=CC=CC=C12
+2024-12-11 15:28:14.744 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902094.743692.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902094.744125
+2024-12-11 15:28:23.395 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC1NC=NC2=CC=CC=C12 with affinity: 6.9
+2024-12-11 15:28:24.007 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:28:24.640 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F
+2024-12-11 15:28:24.640 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F with affinity: 6.9
+2024-12-11 15:28:25.475 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C(C1[NH1])C=CC2=C(C3=CC=CC=C3)O2
+2024-12-11 15:28:25.487 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902105.48733.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902105.487794
+2024-12-11 15:28:35.517 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C(C1[NH1])C=CC2=C(C3=CC=CC=C3)O2 with affinity: 7.5
+2024-12-11 15:28:36.440 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CNC(=O)CC1CCC1C=C
+2024-12-11 15:28:36.472 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902116.472348.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902116.472787
+2024-12-11 15:28:46.460 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CNC(=O)CC1CCC1C=C with affinity: 6.1
+2024-12-11 15:28:47.761 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:28:47.816 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902127.8163872.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902127.816968
+2024-12-11 15:29:09.966 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:29:10.564 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(COC1=CC=CC=C1)=N
+2024-12-11 15:29:10.578 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902150.578269.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902150.578739
+2024-12-11 15:29:20.811 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(COC1=CC=CC=C1)=N with affinity: 6.7
+2024-12-11 15:29:22.157 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(NC(=O)CCC2CC2C1C)C=O
+2024-12-11 15:29:22.177 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902162.176893.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902162.177355
+2024-12-11 15:29:29.216 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=C(NC(=O)CCC2CC2C1C)C=O with affinity: 6.6
+2024-12-11 15:29:29.267 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:29:29.844 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F
+2024-12-11 15:29:29.844 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F with affinity: 6.9
+2024-12-11 15:29:31.266 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C(C(=O)NC1CCOCC1)N=CC(=O)C2=CC=C(Cl)C=C2[NH1]C=O
+2024-12-11 15:29:31.301 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902171.300813.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902171.3013551
+2024-12-11 15:29:56.533 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C(C(=O)NC1CCOCC1)N=CC(=O)C2=CC=C(Cl)C=C2[NH1]C=O with affinity: 8.6
+2024-12-11 15:29:57.278 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC1=NC2=CC=CC=C2[NH1]1
+2024-12-11 15:29:57.289 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902197.2891898.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902197.28963
+2024-12-11 15:30:04.996 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC1=NC2=CC=CC=C2[NH1]1 with affinity: 7.0
+2024-12-11 15:30:06.464 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C(C(=O)NC1CCOCC1)N=CC(=O)C2=CC=C(Cl)C=C2[NH1]C=O
+2024-12-11 15:30:06.465 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C(C(=O)NC1CCOCC1)N=CC(=O)C2=CC=C(Cl)C=C2[NH1]C=O with affinity: 8.6
+2024-12-11 15:30:07.940 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CNC(=O)CCCCOC(=O)CCCOC(=O)CCCC
+2024-12-11 15:30:07.987 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902207.986753.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902207.98772
+2024-12-11 15:30:51.338 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CNC(=O)CCCCOC(=O)CCCOC(=O)CCCC with affinity: 6.2
+2024-12-11 15:30:52.632 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:30:52.633 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:30:53.267 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F
+2024-12-11 15:30:53.267 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F with affinity: 6.9
+2024-12-11 15:30:53.837 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:30:55.498 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:30:55.499 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:30:56.727 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:30:56.750 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902256.749664.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902256.75019
+2024-12-11 15:31:08.940 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:31:08.995 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:31:09.700 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C2=CC=CCC12CCCNC=NC=NCCCC
+2024-12-11 15:31:09.727 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902269.726851.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902269.7273312
+2024-12-11 15:31:25.431 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C2=CC=CCC12CCCNC=NC=NCCCC with affinity: 5.4
+2024-12-11 15:31:27.267 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C(C(=O)NC1CCOCC1)N=CC(=O)C2=CC=C(Cl)C=C2[NH1]C=O
+2024-12-11 15:31:27.268 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C(C(=O)NC1CCOCC1)N=CC(=O)C2=CC=C(Cl)C=C2[NH1]C=O with affinity: 8.6
+2024-12-11 15:31:27.895 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C(C1=C2C=CN=CC2NO)C1
+2024-12-11 15:31:27.908 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902287.907938.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902287.9084291
+2024-12-11 15:31:34.724 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C(C1=C2C=CN=CC2NO)C1 with affinity: 7.3
+2024-12-11 15:31:36.077 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:31:36.078 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:31:36.546 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C[NH1]C2=CC=CC=C12
+2024-12-11 15:31:36.557 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902296.556554.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902296.557015
+2024-12-11 15:31:42.864 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C[NH1]C2=CC=CC=C12 with affinity: 7.3
+2024-12-11 15:31:44.032 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC2=C1C=N[NH1]C(=CC=C23)C=NSC3CC4=CC=CC=C4
+2024-12-11 15:31:44.068 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902304.0682602.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902304.0688078
+2024-12-11 15:31:56.271 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC2=C1C=N[NH1]C(=CC=C23)C=NSC3CC4=CC=CC=C4 with affinity: 9.0
+2024-12-11 15:31:57.582 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:31:57.582 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:31:58.768 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:31:58.769 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:31:59.567 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC(CC1NC=NC=NCC)NC(=O)C=N1
+2024-12-11 15:31:59.597 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902319.5970728.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902319.5975611
+2024-12-11 15:32:16.408 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC(CC1NC=NC=NCC)NC(=O)C=N1 with affinity: 6.9
+2024-12-11 15:32:17.662 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:32:17.663 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:32:17.703 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:32:18.649 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC2=C1C=N[NH1]C(=CC=C23)C=NSC3CC4=CC=CC=C4
+2024-12-11 15:32:18.649 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC2=C1C=N[NH1]C(=CC=C23)C=NSC3CC4=CC=CC=C4 with affinity: 9.0
+2024-12-11 15:32:19.731 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:32:19.731 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:32:20.839 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1CC2NC=CC=C(OCCN3CCOCC3)C2=N1
+2024-12-11 15:32:20.879 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902340.878505.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902340.879043
+2024-12-11 15:32:35.651 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1CC2NC=CC=C(OCCN3CCOCC3)C2=N1 with affinity: 7.1
+2024-12-11 15:32:36.946 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:32:36.946 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:32:37.921 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC2=C1C=N[NH1]C(=CC=C23)C=NSC3CC4=CC=CC=C4
+2024-12-11 15:32:37.922 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC2=C1C=N[NH1]C(=CC=C23)C=NSC3CC4=CC=CC=C4 with affinity: 9.0
+2024-12-11 15:32:38.717 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1N2C=NC3=NC2(NC=CC=CC=CC=C)OC=C3Cl
+2024-12-11 15:32:38.825 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902358.824488.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902358.8249931
+2024-12-11 15:32:59.925 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1N2C=NC3=NC2(NC=CC=CC=CC=C)OC=C3Cl with affinity: 7.5
+2024-12-11 15:33:00.538 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1C(=O)N2CCCC2=C1O
+2024-12-11 15:33:00.551 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902380.55148.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902380.551935
+2024-12-11 15:33:08.814 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1C(=O)N2CCCC2=C1O with affinity: 6.8
+2024-12-11 15:33:09.371 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=C(C=C2C=CN=CN=C)C=C21
+2024-12-11 15:33:10.338 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1
+2024-12-11 15:33:10.368 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902390.3681889.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902390.368706
+2024-12-11 15:33:18.434 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1 with affinity: 7.8
+2024-12-11 15:33:19.036 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F
+2024-12-11 15:33:19.037 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F with affinity: 6.9
+2024-12-11 15:33:19.072 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:33:19.666 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1CC=CCNC2=CC=CC=C2N
+2024-12-11 15:33:19.688 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902399.6883368.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902399.688894
+2024-12-11 15:33:31.238 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1CC=CCNC2=CC=CC=C2N with affinity: 7.6
+2024-12-11 15:33:32.320 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:33:32.320 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:33:33.447 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C
+2024-12-11 15:33:33.540 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902413.539938.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902413.540461
+2024-12-11 15:33:48.359 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C with affinity: 8.4
+2024-12-11 15:33:49.317 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCC(=C1)C2=NC(=NO2)C3=CC=C(O)C=C3
+2024-12-11 15:33:49.337 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902429.336758.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902429.337307
+2024-12-11 15:34:00.714 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCC(=C1)C2=NC(=NO2)C3=CC=C(O)C=C3 with affinity: 8.7
+2024-12-11 15:34:01.170 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1CCC2=CC=CC=C2N1
+2024-12-11 15:34:01.182 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902441.182366.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902441.182858
+2024-12-11 15:34:07.899 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1CCC2=CC=CC=C2N1 with affinity: 7.3
+2024-12-11 15:34:08.498 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CCC1NC(=O)C2=CC=CC=C2C
+2024-12-11 15:34:08.511 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902448.5112178.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902448.511703
+2024-12-11 15:34:15.576 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CCC1NC(=O)C2=CC=CC=C2C with affinity: 8.6
+2024-12-11 15:34:16.095 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(COC1=CC=CC=C1)=N
+2024-12-11 15:34:16.095 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(COC1=CC=CC=C1)=N with affinity: 6.7
+2024-12-11 15:34:17.291 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CNC(=O)CC1CCC1C=C
+2024-12-11 15:34:17.292 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CNC(=O)CC1CCC1C=C with affinity: 6.1
+2024-12-11 15:34:18.222 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1NC=CC(=C1)C2=CC=CC=C2C=C
+2024-12-11 15:34:18.250 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902458.2501152.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902458.2505941
+2024-12-11 15:34:33.691 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1NC=CC(=C1)C2=CC=CC=C2C=C with affinity: 7.7
+2024-12-11 15:34:34.804 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:34:34.804 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:34:34.841 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:34:35.895 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:34:35.896 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:34:36.725 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=C2C=C1C3=NC(=CC=C3C2C)C=O
+2024-12-11 15:34:39.071 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902479.0714839.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902479.071916
+2024-12-11 15:34:39.666 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:34:40.754 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:34:40.755 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:34:41.723 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:34:41.724 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:34:42.693 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC2(CC=C(F)C=C(O)C=C2)C1
+2024-12-11 15:34:42.707 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902482.707006.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902482.707474
+2024-12-11 15:34:47.125 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC2(CC=C(F)C=C(O)C=C2)C1 with affinity: 8.4
+2024-12-11 15:34:48.188 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:34:48.189 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:34:49.178 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:34:49.179 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:34:50.078 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:34:50.095 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902490.0946639.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902490.095209
+2024-12-11 15:34:55.544 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:34:57.144 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CNC(=O)CCCCOC(=O)CCCOC(=O)CCCC
+2024-12-11 15:34:57.145 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CNC(=O)CCCCOC(=O)CCCOC(=O)CCCC with affinity: 6.2
+2024-12-11 15:34:58.018 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:34:58.019 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:34:58.057 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:34:59.273 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1
+2024-12-11 15:34:59.274 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1 with affinity: 7.8
+2024-12-11 15:35:00.875 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C
+2024-12-11 15:35:00.875 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C with affinity: 8.4
+2024-12-11 15:35:01.929 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:35:01.930 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:35:02.841 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:35:02.841 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:35:03.681 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:35:03.715 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902503.7152882.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902503.715806
+2024-12-11 15:35:12.137 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:35:13.412 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C
+2024-12-11 15:35:13.413 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C with affinity: 8.4
+2024-12-11 15:35:14.287 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:35:14.321 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902514.321387.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902514.321908
+2024-12-11 15:35:30.496 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:35:31.419 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1
+2024-12-11 15:35:31.419 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1 with affinity: 7.8
+2024-12-11 15:35:32.124 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(C(=O)NCC2=CC=CC=C2)C1
+2024-12-11 15:35:32.143 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902532.142876.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902532.1433558
+2024-12-11 15:35:42.074 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(C(=O)NCC2=CC=CC=C2)C1 with affinity: 7.2
+2024-12-11 15:35:43.417 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC1NC=NC2=CC=CC=C12
+2024-12-11 15:35:43.418 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC1NC=NC2=CC=CC=C12 with affinity: 6.9
+2024-12-11 15:35:43.452 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:35:43.928 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C(CNC1=NC2=CC=C)C=C2[NH1]1
+2024-12-11 15:35:46.367 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902546.3670368.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902546.367521
+2024-12-11 15:35:46.909 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:35:47.687 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:35:47.687 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:35:48.448 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:35:48.449 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:35:49.200 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:35:49.200 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:35:49.938 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:35:49.938 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:35:50.658 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:35:50.658 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:35:51.418 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:35:51.418 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:35:52.125 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:35:52.126 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:35:52.988 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC=CC(NC(=O)C2=CC=CC=C2N)N)=C1
+2024-12-11 15:35:53.017 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902553.01686.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902553.0173671
+2024-12-11 15:36:08.411 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC=CC(NC(=O)C2=CC=CC=C2N)N)=C1 with affinity: 8.1
+2024-12-11 15:36:09.371 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C
+2024-12-11 15:36:09.372 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C with affinity: 8.4
+2024-12-11 15:36:09.407 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:36:10.096 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:36:10.096 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:36:10.945 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1
+2024-12-11 15:36:10.946 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1 with affinity: 7.8
+2024-12-11 15:36:11.450 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F
+2024-12-11 15:36:11.451 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F with affinity: 6.9
+2024-12-11 15:36:12.328 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC2(CC=C(F)C=C(O)C=C2)C1
+2024-12-11 15:36:12.328 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC2(CC=C(F)C=C(O)C=C2)C1 with affinity: 8.4
+2024-12-11 15:36:13.170 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1NC=CC(=C1)C2=CC=CC=C2C=C
+2024-12-11 15:36:13.170 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1NC=CC(=C1)C2=CC=CC=C2C=C with affinity: 7.7
+2024-12-11 15:36:13.854 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:36:13.855 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:36:14.538 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:36:14.539 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:36:15.286 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:36:15.287 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:36:15.949 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:36:15.949 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:36:16.798 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1(NC=C2C=C(OCC(O)C=NNC3=CC=C)C=C3N)C2
+2024-12-11 15:36:16.845 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902576.8447092.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902576.8452249
+2024-12-11 15:36:27.161 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1(NC=C2C=C(OCC(O)C=NNC3=CC=C)C=C3N)C2 with affinity: 8.2
+2024-12-11 15:36:27.214 | INFO     | __main__:MCTS:277 - [0.01098901098901099, 0.989010989010989]
+2024-12-11 15:36:28.205 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=CC=C(OC1C(O)C=NNC2=CC=C)C=C2)=N1
+2024-12-11 15:36:28.243 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902588.242814.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902588.2433212
+2024-12-11 15:36:39.092 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=CC=C(OC1C(O)C=NNC2=CC=C)C=C2)=N1 with affinity: 8.2
+2024-12-11 15:36:39.876 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(N2C3=NC=CC2(N4C=CC=CC=CC=C)N4N3)=C1
+2024-12-11 15:36:39.915 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902599.9145842.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902599.9151092
+2024-12-11 15:36:56.491 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(N2C3=NC=CC2(N4C=CC=CC=CC=C)N4N3)=C1 with affinity: 8.1
+2024-12-11 15:36:57.472 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:36:57.472 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:36:58.026 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CCC1NC(=O)C2=CC=CC=C2C
+2024-12-11 15:36:58.026 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CCC1NC(=O)C2=CC=CC=C2C with affinity: 8.6
+2024-12-11 15:36:58.496 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F
+2024-12-11 15:36:58.497 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCC1(C(=O)N2CCCC2=C1)F with affinity: 6.9
+2024-12-11 15:36:59.377 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC=NC1=CC2=CC=CC=C2OC1)=C
+2024-12-11 15:36:59.428 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902619.428462.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902619.428969
+2024-12-11 15:37:17.126 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=NC=NC1=CC2=CC=CC=C2OC1)=C with affinity: 8.1
+2024-12-11 15:37:18.217 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=CC(Cl)=CC=C1Cl
+2024-12-11 15:37:18.225 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902638.2253282.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902638.2257311
+2024-12-11 15:37:23.694 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=CC(Cl)=CC=C1Cl with affinity: 5.8
+2024-12-11 15:37:24.529 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CNC(=O)CC1CCC1C=C
+2024-12-11 15:37:24.529 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CNC(=O)CC1CCC1C=C with affinity: 6.1
+2024-12-11 15:37:25.459 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3
+2024-12-11 15:37:25.460 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1NC2CCCCC2N=C(C3C4=CC=CC=C4)N5C(=O)C5C=C3 with affinity: 8.4
+2024-12-11 15:37:26.184 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC=C1F
+2024-12-11 15:37:26.189 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902646.188899.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902646.189285
+2024-12-11 15:37:30.020 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC=C1F with affinity: 6.2
+2024-12-11 15:37:30.078 | INFO     | __main__:MCTS:277 - [0.020202020202020204, 0.8181818181818182, 0.16161616161616163]
+2024-12-11 15:37:30.702 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:37:30.703 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:37:31.533 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1
+2024-12-11 15:37:31.533 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1 with affinity: 7.8
+2024-12-11 15:37:32.496 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1
+2024-12-11 15:37:32.545 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902652.5452852.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902652.545799
+2024-12-11 15:37:43.468 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1 with affinity: 8.4
+2024-12-11 15:37:44.081 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:37:44.082 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:37:44.647 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:37:44.648 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:37:45.279 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:37:45.279 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:37:46.175 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C
+2024-12-11 15:37:46.175 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C with affinity: 8.4
+2024-12-11 15:37:47.366 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC=1CCCCC=1C=NNC2=CC(C(=O)NC=CC3CCCCC3)=C2N
+2024-12-11 15:37:47.429 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902667.4291232.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902667.429666
+2024-12-11 15:38:17.108 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC=1CCCCC=1C=NNC2=CC(C(=O)NC=CC3CCCCC3)=C2N with affinity: 8.1
+2024-12-11 15:38:17.791 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CCNC=NC2=C1C3=CC=CC=C3O2
+2024-12-11 15:38:17.805 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902697.8048918.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902697.805383
+2024-12-11 15:38:22.486 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CCNC=NC2=C1C3=CC=CC=C3O2 with affinity: 8.9
+2024-12-11 15:38:23.181 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCNC=NC=C1OC2=CC=CC=C2OC1
+2024-12-11 15:38:23.207 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902703.207021.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902703.2075148
+2024-12-11 15:38:33.842 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCNC=NC=C1OC2=CC=CC=C2OC1 with affinity: 7.4
+2024-12-11 15:38:33.896 | INFO     | __main__:MCTS:277 - [0.011111111111111112, 0.5777777777777777, 0.044444444444444446, 0.2, 0.16666666666666666]
+2024-12-11 15:38:34.603 | INFO     | __main__:rollout:197 - Decoded SELFIES: N12S(=O)(=O)C=CC=CC2NC=NC=CC1(OC3=CC=CC=C3Cl)C
+2024-12-11 15:38:34.630 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902714.6302521.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902714.630759
+2024-12-11 15:38:43.418 | SUCCESS  | __main__:rollout:223 - Valid molecule: N12S(=O)(=O)C=CC=CC2NC=NC=CC1(OC3=CC=CC=C3Cl)C with affinity: 7.7
+2024-12-11 15:38:43.988 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:38:43.989 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:38:44.492 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:38:44.493 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=CC2=C1NC3=CC=CC=C3N2N with affinity: 9.3
+2024-12-11 15:38:45.307 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1(NC=C2C=C(OCC(O)C=NNC3=CC=C)C=C3N)C2
+2024-12-11 15:38:45.307 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1(NC=C2C=C(OCC(O)C=NNC3=CC=C)C=C3N)C2 with affinity: 8.2
+2024-12-11 15:38:45.898 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:38:45.898 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:38:46.862 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC=C(C(=O)NOCC=C)C=COC1=CC=C)C=C1Cl
+2024-12-11 15:38:46.917 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902726.9166012.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902726.9175391
+2024-12-11 15:39:08.371 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=NC=C(C(=O)NOCC=C)C=COC1=CC=C)C=C1Cl with affinity: 7.8
+2024-12-11 15:39:09.241 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC=CC(NC(=O)C2=CC=CC=C2N)N)=C1
+2024-12-11 15:39:09.242 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC=CC(NC(=O)C2=CC=CC=C2N)N)=C1 with affinity: 8.1
+2024-12-11 15:39:10.429 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC2(NC=NC(=N2)C=C3C=CNC(=O)CCCNCCO)C=C3C1
+2024-12-11 15:39:10.470 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902750.469952.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902750.470502
+2024-12-11 15:39:33.912 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC2(NC=NC(=N2)C=C3C=CNC(=O)CCCNCCO)C=C3C1 with affinity: 7.7
+2024-12-11 15:39:34.492 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:39:34.492 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:39:35.417 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC(NC=C(C(=O)C2[NH1]C3=C)C=CC=C3O2)=C1
+2024-12-11 15:39:35.441 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902775.441328.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902775.441809
+2024-12-11 15:39:43.199 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC(NC=C(C(=O)C2[NH1]C3=C)C=CC=C3O2)=C1 with affinity: 8.1
+2024-12-11 15:39:43.253 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:39:43.789 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:39:43.790 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:39:44.416 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:39:44.416 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:39:45.191 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=C2C(NC3=NC=CC1(NC=CC4=CC=CC=C4N)N3)=C2
+2024-12-11 15:39:45.825 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902785.8250828.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902785.8256042
+2024-12-11 15:40:01.539 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=C2C(NC3=NC=CC1(NC=CC4=CC=CC=C4N)N3)=C2 with affinity: 8.5
+2024-12-11 15:40:02.308 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC(NC2=NC=CC(=N2)C(F)(F)F)=C1
+2024-12-11 15:40:02.317 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902802.3166468.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902802.3171048
+2024-12-11 15:40:10.695 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC(NC2=NC=CC(=N2)C(F)(F)F)=C1 with affinity: 7.6
+2024-12-11 15:40:11.380 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CCNC=CC2=C1C3=CC=CC=C3O2
+2024-12-11 15:40:11.409 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902811.408627.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902811.409122
+2024-12-11 15:40:15.851 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CCNC=CC2=C1C3=CC=CC=C3O2 with affinity: 7.7
+2024-12-11 15:40:16.495 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CCNC=NC2=C1C3=CC=CC=C3O2
+2024-12-11 15:40:16.496 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CCNC=NC2=C1C3=CC=CC=C3O2 with affinity: 8.9
+2024-12-11 15:40:17.414 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC1=CC2=C(Cl)C=C1OC3=CC=N)C=C3C2
+2024-12-11 15:40:22.366 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902822.36624.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902822.366642
+2024-12-11 15:40:22.912 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:40:23.597 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:40:23.597 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:40:24.208 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:40:24.209 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:40:24.846 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:40:24.847 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:40:24.888 | INFO     | __main__:MCTS:277 - [0.04285714285714286, 0.02857142857142857, 0.08571428571428572, 0.07142857142857142, 0.7714285714285715]
+2024-12-11 15:40:25.602 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:40:25.630 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902825.630077.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902825.6306171
+2024-12-11 15:40:37.882 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:40:38.602 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:40:38.602 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:40:39.302 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:40:39.303 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:40:40.004 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:40:40.005 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:40:40.621 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:40:40.621 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:40:41.430 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC1=CC2=C(Cl)C=C1OC3=CC=NC=C3C2)=C
+2024-12-11 15:40:47.238 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902847.237937.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902847.2383628
+2024-12-11 15:40:47.951 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:40:48.644 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:40:48.645 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:40:49.208 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:40:49.208 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:40:49.890 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:40:49.890 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:40:50.498 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:40:50.498 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:40:50.556 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:40:51.599 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=C2C(NC3=NC=CC1(NC=CC4=CC=CC=C4N)N3)=C2
+2024-12-11 15:40:51.600 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=C2C(NC3=NC=CC1(NC=CC4=CC=CC=C4N)N3)=C2 with affinity: 8.5
+2024-12-11 15:40:52.067 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:40:52.068 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:40:52.631 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:40:52.632 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:40:53.279 | INFO     | __main__:rollout:197 - Decoded SELFIES: N12S(=O)(=O)C=CC=CC2NC=NC=CC1(OC3=CC=CC=C3Cl)C
+2024-12-11 15:40:53.279 | SUCCESS  | __main__:rollout:223 - Valid molecule: N12S(=O)(=O)C=CC=CC2NC=NC=CC1(OC3=CC=CC=C3Cl)C with affinity: 7.7
+2024-12-11 15:40:54.121 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCNC=NC=CCNC1=NC2=CC=C(F)C(F)=C2N1
+2024-12-11 15:40:54.155 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902854.154755.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902854.155311
+2024-12-11 15:41:18.016 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCNC=NC=CCNC1=NC2=CC=C(F)C(F)=C2N1 with affinity: 7.9
+2024-12-11 15:41:18.469 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:41:18.469 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:41:19.042 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:41:19.043 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:41:19.969 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1
+2024-12-11 15:41:19.969 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1 with affinity: 8.4
+2024-12-11 15:41:20.382 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:41:20.382 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:41:20.747 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:41:20.747 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:41:20.780 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:41:21.391 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:41:21.392 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:41:22.121 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(N2C3=NC=CC2(N4C=CC=CC=CC=C)N4N3)=C1
+2024-12-11 15:41:22.121 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(N2C3=NC=CC2(N4C=CC=CC=CC=C)N4N3)=C1 with affinity: 8.1
+2024-12-11 15:41:22.905 | INFO     | __main__:rollout:197 - Decoded SELFIES: N12S(=O)(=O)C=CC=CC2NC=CC=CC1(OC3=CC=CC=C3Cl)C
+2024-12-11 15:41:22.934 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902882.933911.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902882.934479
+2024-12-11 15:41:31.336 | SUCCESS  | __main__:rollout:223 - Valid molecule: N12S(=O)(=O)C=CC=CC2NC=CC=CC1(OC3=CC=CC=C3Cl)C with affinity: 8.4
+2024-12-11 15:41:31.688 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:41:31.689 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:41:32.433 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=CC(NC2=NC=C2N3CCCC4C3=N1)=CC=C4
+2024-12-11 15:41:32.470 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902892.4697769.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902892.470291
+2024-12-11 15:41:41.016 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=CC(NC2=NC=C2N3CCCC4C3=N1)=CC=C4 with affinity: 7.6
+2024-12-11 15:41:41.775 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1
+2024-12-11 15:41:41.775 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCNC=C2C=C(F)C(NC3=CC=CC=C3N2)=N1 with affinity: 7.8
+2024-12-11 15:41:42.286 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCNC1=NC=CC(=N1)C=CC=CC2NC=CC=C2N
+2024-12-11 15:41:42.398 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902902.39814.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902902.398666
+2024-12-11 15:42:03.122 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCNC1=NC=CC(=N1)C=CC=CC2NC=CC=C2N with affinity: 8.0
+2024-12-11 15:42:03.735 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:42:03.735 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:42:04.302 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:42:04.302 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:42:04.840 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:42:04.841 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:42:04.875 | INFO     | __main__:MCTS:277 - [0.2345679012345679, 0.7654320987654321]
+2024-12-11 15:42:05.742 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=CC(NC=NC=CC(OCCNC(=O)C2=CC=C)C=C2Cl)=CC=C1
+2024-12-11 15:42:05.790 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902925.7903.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902925.790848
+2024-12-11 15:42:30.330 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=CC(NC=NC=CC(OCCNC(=O)C2=CC=C)C=C2Cl)=CC=C1 with affinity: 8.8
+2024-12-11 15:42:30.864 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:42:30.864 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:42:31.336 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:42:31.337 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:42:31.778 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:42:31.779 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:42:32.181 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:42:32.181 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:42:32.864 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=C2C(NC3=NC=CC1(NC=CC4=CC=CC=C4N)N3)=C2
+2024-12-11 15:42:32.865 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=C2C(NC3=NC=CC1(NC=CC4=CC=CC=C4N)N3)=C2 with affinity: 8.5
+2024-12-11 15:42:33.551 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(=N1)C2=CC=C(N=C2)N3CCO)CC3=N
+2024-12-11 15:42:40.599 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902960.598811.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902960.5993211
+2024-12-11 15:42:41.372 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:42:41.907 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C
+2024-12-11 15:42:41.907 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(NC2=CC=CC=C2OC=C1)=C)=C with affinity: 8.4
+2024-12-11 15:42:42.709 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(N2C3=NC=CC2(N4C=CC=CC=CC=C)N4N3)=C1
+2024-12-11 15:42:42.709 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(N2C3=NC=CC2(N4C=CC=CC=CC=C)N4N3)=C1 with affinity: 8.1
+2024-12-11 15:42:43.114 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2
+2024-12-11 15:42:43.114 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1NC2=NC=C3C(NC4=CC=CC=C4O)C3=N2 with affinity: 9.4
+2024-12-11 15:42:43.150 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:42:43.467 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC=CC(NC3=CC=CC=C3Cl)=C2C1)=N
+2024-12-11 15:42:43.492 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902963.492026.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902963.4925818
+2024-12-11 15:42:55.147 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC=CC(NC3=CC=CC=C3Cl)=C2C1)=N with affinity: 8.2
+2024-12-11 15:42:55.962 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC=CNC1=CC=CC=C1OC=C)Cl
+2024-12-11 15:42:56.014 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902976.014218.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902976.014715
+2024-12-11 15:43:18.133 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=NC=CNC1=CC=CC=C1OC=C)Cl with affinity: 6.3
+2024-12-11 15:43:19.001 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC=NC1=CC2=CC=CC=C2OC1)=C
+2024-12-11 15:43:19.001 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=NC=NC1=CC2=CC=CC=C2OC1)=C with affinity: 8.1
+2024-12-11 15:43:19.553 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(=N1)C=CCNC2=CC=CC=C2)=N
+2024-12-11 15:43:19.583 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902999.582887.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733902999.583432
+2024-12-11 15:43:43.130 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(=N1)C=CCNC2=CC=CC=C2)=N with affinity: 7.9
+2024-12-11 15:43:43.867 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC(NC2=NC=CC(=N2)C(F)(F)F)=C1
+2024-12-11 15:43:43.868 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC(NC2=NC=CC(=N2)C(F)(F)F)=C1 with affinity: 7.6
+2024-12-11 15:43:44.199 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:43:44.200 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:43:45.179 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(=C1)S(N)(=O)=O)Cl
+2024-12-11 15:43:45.193 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903025.192981.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903025.193461
+2024-12-11 15:43:58.345 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(=C1)S(N)(=O)=O)Cl with affinity: 6.7
+2024-12-11 15:43:59.294 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=CC(NC=NC=CC(OCCNC(=O)C2=CC=C)C=C2Cl)=CC=C1
+2024-12-11 15:43:59.295 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=CC(NC=NC=CC(OCCNC(=O)C2=CC=C)C=C2Cl)=CC=C1 with affinity: 8.8
+2024-12-11 15:44:00.042 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC=CC(OC(O)C1=CC=C)C=C1Cl)=N
+2024-12-11 15:44:00.074 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903040.073466.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903040.073972
+2024-12-11 15:44:19.441 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=NC=CC(OC(O)C1=CC=C)C=C1Cl)=N with affinity: 7.1
+2024-12-11 15:44:20.311 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1
+2024-12-11 15:44:20.311 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1 with affinity: 8.4
+2024-12-11 15:44:20.345 | INFO     | __main__:MCTS:277 - [0.0125, 0.025, 0.9625]
+2024-12-11 15:44:20.585 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:44:20.586 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:44:21.261 | INFO     | __main__:rollout:197 - Decoded SELFIES: N12S(=O)(=O)C=CC=CC2NC=NC=CC1(OC3=CC=CC=C3Cl)C
+2024-12-11 15:44:21.262 | SUCCESS  | __main__:rollout:223 - Valid molecule: N12S(=O)(=O)C=CC=CC2NC=NC=CC1(OC3=CC=CC=C3Cl)C with affinity: 7.7
+2024-12-11 15:44:21.495 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:44:21.496 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:44:21.694 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:44:21.695 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:44:21.879 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1
+2024-12-11 15:44:21.880 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC2=NC=CC(=N2)C3=CC=C(F)C(F)=C3)=N1 with affinity: 8.9
+2024-12-11 15:44:22.497 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCNC=NC=C1OC2=CC=CC=C2OC1
+2024-12-11 15:44:22.497 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCNC=NC=C1OC2=CC=CC=C2OC1 with affinity: 7.4
+2024-12-11 15:44:23.322 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC1=NC=CC(=N1)S(N)(=O)=O)Cl
+2024-12-11 15:44:23.339 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903063.339214.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903063.3396852
+2024-12-11 15:44:36.469 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC1=NC=CC(=N1)S(N)(=O)=O)Cl with affinity: 6.8
+2024-12-11 15:44:37.194 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=C2C(NC3=NC=CC1(NC=CC4=CC=CC=C4N)N3)=C2
+2024-12-11 15:44:37.194 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=C2C(NC3=NC=CC1(NC=CC4=CC=CC=C4N)N3)=C2 with affinity: 8.5
+2024-12-11 15:44:37.682 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:44:37.682 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:44:38.117 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1
+2024-12-11 15:44:38.118 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=C1C(NC2=NC=CC(N3C=CC4=CC=CC=C4N3)=N2)=C1 with affinity: 9.5
+2024-12-11 15:44:38.152 | INFO     | __main__:MCTS:277 - [0.19767441860465115, 0.8023255813953488]
+2024-12-11 15:44:39.331 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(NC2=NC=C(O2)C=CCOCCN3CCOCC34)=NC=CC=C4C1
+2024-12-11 15:44:39.400 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903079.399659.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903079.4003541
+2024-12-11 15:44:48.067 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(NC2=NC=C(O2)C=CCOCCN3CCOCC34)=NC=CC=C4C1 with affinity: 8.7
+2024-12-11 15:44:48.916 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1
+2024-12-11 15:44:48.917 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1 with affinity: 8.4
+2024-12-11 15:44:49.457 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:44:49.458 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:44:49.961 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:44:49.961 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:44:50.764 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1
+2024-12-11 15:44:50.764 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CC(N2C=NC=C(F)C(F)=C2NN3C=CC=CC)=C3N1 with affinity: 8.4
+2024-12-11 15:44:51.702 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC=C(C(=O)NOCC=C)C=COC1=CC=C)C=C1Cl
+2024-12-11 15:44:51.702 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=NC=C(C(=O)NOCC=C)C=COC1=CC=C)C=C1Cl with affinity: 7.8
+2024-12-11 15:44:52.163 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:44:52.164 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:44:52.624 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:44:52.625 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:44:53.030 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:44:53.030 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:44:53.627 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCNC=NC=C1OC2=CC=CC=C2OC1
+2024-12-11 15:44:53.627 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCNC=NC=C1OC2=CC=CC=C2OC1 with affinity: 7.4
+2024-12-11 15:44:53.660 | INFO     | __main__:MCTS:277 - [0.038461538461538464, 0.07692307692307693, 0.11538461538461539, 0.19230769230769232, 0.5769230769230769]
+2024-12-11 15:44:53.987 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:44:53.987 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:44:54.327 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:44:54.328 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:44:54.626 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:44:54.626 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:44:54.989 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:44:55.015 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903095.014684.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903095.015182
+2024-12-11 15:45:00.828 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:45:01.208 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C
+2024-12-11 15:45:01.244 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903101.24384.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903101.244372
+2024-12-11 15:45:14.323 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C with affinity: 7.1
+2024-12-11 15:45:15.075 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC1=CC(NC2=NC=C2N3CCCC4C3=N1)=CC=C4
+2024-12-11 15:45:15.075 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC1=CC(NC2=NC=C2N3CCCC4C3=N1)=CC=C4 with affinity: 7.6
+2024-12-11 15:45:15.448 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:45:15.449 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:45:16.525 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC=C(OCCNC(=O)C=NC1=NC)CC=C1)O
+2024-12-11 15:45:16.570 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903116.570081.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903116.570616
+2024-12-11 15:45:33.014 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=NC=C(OCCNC(=O)C=NC1=NC)CC=C1)O with affinity: 7.9
+2024-12-11 15:45:33.328 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1
+2024-12-11 15:45:33.351 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903133.3510542.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903133.35158
+2024-12-11 15:45:45.390 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1 with affinity: 7.2
+2024-12-11 15:45:45.736 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:45:45.736 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:45:45.770 | INFO     | __main__:MCTS:277 - [0.0, 0.16666666666666666, 0.8333333333333334]
+2024-12-11 15:45:46.012 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:45:46.012 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:45:46.241 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:45:46.242 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:45:46.795 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:45:46.795 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:45:47.316 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CCNC=NC=C1NC2=CC=CC=C2C=N
+2024-12-11 15:45:47.346 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903147.346366.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903147.346907
+2024-12-11 15:45:57.433 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CCNC=NC=C1NC2=CC=CC=C2C=N with affinity: 7.5
+2024-12-11 15:45:57.637 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:45:57.638 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:45:58.230 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC=C(NCCN3CCOCC3=N2)C1
+2024-12-11 15:45:58.269 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903158.268811.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903158.269366
+2024-12-11 15:46:05.428 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC=C(NCCN3CCOCC3=N2)C1 with affinity: 7.3
+2024-12-11 15:46:05.612 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:46:05.613 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:46:05.884 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:46:05.884 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:46:06.398 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC(NC=NC=C(N2C3=CC=CC=C3NC)C=N2)=C1
+2024-12-11 15:46:06.424 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903166.42383.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903166.424491
+2024-12-11 15:46:20.941 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC(NC=NC=C(N2C3=CC=CC=C3NC)C=N2)=C1 with affinity: 8.0
+2024-12-11 15:46:21.205 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:46:21.205 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:46:21.239 | INFO     | __main__:MCTS:277 - [0.0, 1.0]
+2024-12-11 15:46:21.309 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:46:21.309 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:46:21.380 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:46:21.381 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:46:21.418 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:46:21.418 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:46:21.455 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:46:21.455 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:46:21.495 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:46:21.496 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:46:21.731 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:46:21.731 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:46:21.769 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:46:21.770 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:46:22.132 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C
+2024-12-11 15:46:22.133 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C with affinity: 7.1
+2024-12-11 15:46:22.301 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:46:22.302 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:46:22.371 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)N1C
+2024-12-11 15:46:22.410 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903182.410044.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903182.410523
+2024-12-11 15:46:33.853 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)N1C with affinity: 7.7
+2024-12-11 15:46:33.904 | INFO     | __main__:MCTS:277 - [0.0, 0.07894736842105263, 0.9210526315789473]
+2024-12-11 15:46:34.024 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:46:34.024 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:46:34.350 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CCNC=NC=C1NC2=CC=C3C=C2N3S
+2024-12-11 15:46:38.247 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903198.246685.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903198.247145
+2024-12-11 15:46:38.843 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:46:39.149 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1
+2024-12-11 15:46:39.150 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1 with affinity: 7.2
+2024-12-11 15:46:39.643 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(NC=NC=C(NC1=CC=CC=C1OCO)C=C)=CC
+2024-12-11 15:46:39.733 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903199.7331939.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903199.7337239
+2024-12-11 15:47:08.296 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CC(NC=NC=C(NC1=CC=CC=C1OCO)C=C)=CC with affinity: 7.2
+2024-12-11 15:47:08.365 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:08.365 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:08.402 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:08.402 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:08.437 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:08.437 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:08.471 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:08.472 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:08.507 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:08.507 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:08.541 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:08.541 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:08.574 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:47:08.609 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)N1C
+2024-12-11 15:47:08.609 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)N1C with affinity: 7.7
+2024-12-11 15:47:08.923 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1N2C=NC3=C(NC4=CC=CC=C4N3N)C=C2C
+2024-12-11 15:47:08.942 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903228.94181.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903228.9423308
+2024-12-11 15:47:17.565 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1N2C=NC3=C(NC4=CC=CC=C4N3N)C=C2C with affinity: 9.0
+2024-12-11 15:47:17.653 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:17.653 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:17.996 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C
+2024-12-11 15:47:17.996 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C with affinity: 7.1
+2024-12-11 15:47:18.117 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N
+2024-12-11 15:47:18.118 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=C=CNC=NC2=C1NC3=CC=CC=C3N2N with affinity: 8.9
+2024-12-11 15:47:18.159 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:18.160 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:18.202 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:18.202 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:18.478 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1
+2024-12-11 15:47:18.479 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1 with affinity: 7.2
+2024-12-11 15:47:18.519 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:18.519 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:18.557 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:18.558 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:18.596 | INFO     | __main__:MCTS:277 - [0.0, 1.0]
+2024-12-11 15:47:18.908 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=C2C=CC31NC=NC=C2NC4=CC=CC=C4OC3
+2024-12-11 15:47:18.936 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903238.935626.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903238.936142
+2024-12-11 15:47:26.232 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=C2C=CC31NC=NC=C2NC4=CC=CC=C4OC3 with affinity: 7.9
+2024-12-11 15:47:26.288 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.288 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.328 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.328 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.366 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.367 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.406 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.407 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.447 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.448 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.488 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.488 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.528 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.529 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.568 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.568 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.609 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.609 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.647 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:47:26.649 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.649 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.689 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.690 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:26.730 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:26.730 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:27.040 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C
+2024-12-11 15:47:27.040 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C with affinity: 7.1
+2024-12-11 15:47:27.101 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:27.101 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:27.154 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)N1C
+2024-12-11 15:47:27.155 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)N1C with affinity: 7.7
+2024-12-11 15:47:27.401 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1
+2024-12-11 15:47:27.401 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1 with affinity: 7.2
+2024-12-11 15:47:27.438 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:27.438 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:27.476 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:27.476 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:27.799 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:47:27.823 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903247.8225632.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903247.823086
+2024-12-11 15:47:35.593 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:47:35.677 | INFO     | __main__:MCTS:277 - [0.0, 1.0]
+2024-12-11 15:47:35.729 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:35.752 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903255.7522812.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903255.7529001
+2024-12-11 15:47:41.327 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 8.9
+2024-12-11 15:47:41.384 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:41.384 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:41.422 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:41.422 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:41.458 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:41.459 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:41.499 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:41.500 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:41.541 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:41.541 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:41.624 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:41.627 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:41.719 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:41.747 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903261.746592.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903261.747112
+2024-12-11 15:47:49.481 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 8.7
+2024-12-11 15:47:49.563 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.564 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:49.616 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.617 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:49.679 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:47:49.682 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.682 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:49.724 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.724 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:49.767 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.767 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:49.803 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.804 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:49.840 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.841 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:49.876 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.876 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:49.911 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:47:49.912 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:47:50.251 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)[NH1]2
+2024-12-11 15:47:50.268 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903270.2682838.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903270.268831
+2024-12-11 15:48:03.711 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)[NH1]2 with affinity: 9.0
+2024-12-11 15:48:03.974 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C
+2024-12-11 15:48:03.975 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC1N2C=NC=C(NC3=CC=CC=C3OC=C)N2C with affinity: 7.1
+2024-12-11 15:48:04.178 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=CC=CC2NC=NC=C(NC3=CC=CC=C3OC)N2C1
+2024-12-11 15:48:04.193 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903284.193428.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903284.19394
+2024-12-11 15:48:14.627 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=CC=CC2NC=NC=C(NC3=CC=CC=C3OC)N2C1 with affinity: 7.7
+2024-12-11 15:48:14.681 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:48:14.684 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:14.685 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:14.724 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:14.725 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:14.767 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:14.767 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:14.812 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:14.813 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:14.854 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:14.854 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:14.896 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:14.897 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:14.937 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:14.938 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:14.976 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:14.977 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.016 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.017 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.274 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:15.275 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:15.312 | INFO     | __main__:MCTS:277 - [0.01020408163265306, 0.01020408163265306, 0.11224489795918367, 0.8673469387755102]
+2024-12-11 15:48:15.314 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.314 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.354 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.355 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.394 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.394 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.429 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)N1C
+2024-12-11 15:48:15.430 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)N1C with affinity: 7.7
+2024-12-11 15:48:15.468 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.469 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.504 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.504 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.539 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.540 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.715 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1
+2024-12-11 15:48:15.716 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC=C(NC3=CC=CC=C3OC)N2C1 with affinity: 7.2
+2024-12-11 15:48:15.752 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.752 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.788 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.788 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.824 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:48:15.826 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.826 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.863 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.863 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.899 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.899 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.940 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.941 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:15.977 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:15.977 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:16.013 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:16.013 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:16.317 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(NC=NC=C(NC2=CC=CC=C2OC=C)Cl)=C1
+2024-12-11 15:48:16.342 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903296.3419032.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903296.3424268
+2024-12-11 15:48:37.515 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(NC=NC=C(NC2=CC=CC=C2OC=C)Cl)=C1 with affinity: 7.4
+2024-12-11 15:48:37.570 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:37.570 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:37.606 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:37.607 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:37.644 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:37.645 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:37.680 | INFO     | __main__:MCTS:277 - [0.0, 0.009708737864077669, 0.06796116504854369, 0.9223300970873787]
+2024-12-11 15:48:37.682 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:37.682 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:37.716 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:37.717 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:37.753 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:37.754 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:37.985 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(N1C2=NC3=C(NC4=CC=CC=C4OC3)N1C2)=C
+2024-12-11 15:48:43.658 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903323.658465.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903323.658895
+2024-12-11 15:48:44.216 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:48:44.278 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.278 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.317 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.318 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.356 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.356 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.395 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.396 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.433 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.434 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.469 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.469 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.502 | INFO     | __main__:MCTS:277 - [0.009615384615384616, 0.057692307692307696, 0.9326923076923077]
+2024-12-11 15:48:44.504 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.505 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.540 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.540 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.575 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.575 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.611 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.611 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.646 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.646 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.681 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.681 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.715 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.716 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.751 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.751 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.789 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.789 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.826 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1
+2024-12-11 15:48:44.826 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)N2C1 with affinity: 9.4
+2024-12-11 15:48:44.871 | INFO     | __main__:MCTS:277 - [0.018867924528301886, 0.9811320754716981]
+2024-12-11 15:48:45.111 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.112 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.282 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.283 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.432 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.432 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.554 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.554 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.635 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.635 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.677 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.677 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.716 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.716 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.753 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.754 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.792 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.792 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.826 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.827 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.862 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:48:45.863 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.863 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.898 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:48:45.898 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:48:45.966 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)C1=N
+2024-12-11 15:48:45.992 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903325.991849.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903325.9923751
+2024-12-11 15:48:58.629 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)C1=N with affinity: 8.6
+2024-12-11 15:48:58.930 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CC(N1C2=NC3=C(NC4=CC=CC=C4OC3)C1=C2)=N
+2024-12-11 15:49:03.534 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903343.5345228.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903343.534964
+2024-12-11 15:49:04.102 | ERROR    | utils.docking:CaculateAffinity:81 - affinity error
+2024-12-11 15:49:04.375 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:04.402 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903344.4014862.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903344.402016
+2024-12-11 15:49:12.228 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:12.425 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:12.426 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:12.570 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:12.571 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:12.610 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:12.634 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903352.6338618.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903352.634392
+2024-12-11 15:49:20.142 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.1
+2024-12-11 15:49:20.276 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:20.276 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:20.369 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)C1=N
+2024-12-11 15:49:20.370 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)C1=N with affinity: 8.6
+2024-12-11 15:49:20.409 | INFO     | __main__:MCTS:277 - [0.0, 1.0]
+2024-12-11 15:49:20.449 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:20.450 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:20.498 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:20.498 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.1
+2024-12-11 15:49:20.552 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:20.552 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:20.613 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:20.613 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:20.676 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:20.676 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:20.733 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:20.733 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:20.791 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)C1=N
+2024-12-11 15:49:20.792 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)C1=N with affinity: 8.6
+2024-12-11 15:49:20.862 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:20.862 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.1
+2024-12-11 15:49:20.927 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:20.936 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.007 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:21.010 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.090 | INFO     | __main__:MCTS:277 - [0.0, 0.034482758620689655, 0.9655172413793104]
+2024-12-11 15:49:21.091 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:21.092 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.134 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:21.134 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.1
+2024-12-11 15:49:21.219 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:21.219 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.307 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:21.308 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.373 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:21.374 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.1
+2024-12-11 15:49:21.444 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:21.444 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.480 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:21.480 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.516 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:21.516 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.552 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:21.552 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:21.621 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=C2C=CC(N3C=NC4=C(NC5=CC=CC=C5OC4)C3=N2)=C1
+2024-12-11 15:49:21.642 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903361.6414552.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903361.642011
+2024-12-11 15:49:27.308 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=C2C=CC(N3C=NC4=C(NC5=CC=CC=C5OC4)C3=N2)=C1 with affinity: 9.1
+2024-12-11 15:49:27.362 | INFO     | __main__:MCTS:277 - [0.0, 1.0]
+2024-12-11 15:49:27.364 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:27.365 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.1
+2024-12-11 15:49:27.404 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:27.405 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:49:27.440 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)C1=N
+2024-12-11 15:49:27.441 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=CC=CCN1C=NC2=C(NC3=CC=CC=C3OC2)C1=N with affinity: 8.6
+2024-12-11 15:49:27.477 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.478 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.513 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.514 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.549 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.549 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.585 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.585 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.620 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:27.621 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.1
+2024-12-11 15:49:27.657 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:27.657 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C1=CC=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.2
+2024-12-11 15:49:27.694 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.695 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.731 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:49:27.733 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.733 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.771 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.772 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.809 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.809 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.851 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.851 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.891 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.892 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:27.930 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1
+2024-12-11 15:49:27.930 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CCN2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1 with affinity: 9.1
+2024-12-11 15:49:27.972 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:27.973 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.011 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.012 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.050 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.050 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.088 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.088 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.123 | INFO     | __main__:MCTS:277 - [0.0, 0.01818181818181818, 0.7454545454545455, 0.05454545454545454, 0.18181818181818182]
+2024-12-11 15:49:28.125 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.125 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.160 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.160 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.200 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.200 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.247 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.248 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.300 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.301 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.340 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.341 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.382 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.383 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.425 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.425 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.464 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.465 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.499 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.500 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.535 | INFO     | __main__:MCTS:277 - [0.16, 0.84]
+2024-12-11 15:49:28.536 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.536 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.649 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.650 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.699 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.700 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.758 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.758 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.798 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.798 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.842 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.843 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.880 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.881 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.920 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.921 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.955 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.956 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:28.995 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:28.995 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.031 | INFO     | __main__:MCTS:277 - [0.13725490196078433, 0.8627450980392157]
+2024-12-11 15:49:29.032 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.032 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.069 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.069 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.105 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.105 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.141 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.141 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.178 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.178 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.216 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.217 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.272 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.273 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.327 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.327 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.364 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.365 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.400 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.401 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.436 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:49:29.437 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.438 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.473 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.473 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.508 | INFO     | __main__:rollout:197 - Decoded SELFIES: N1S(=O)(=O)C=C2C=CC(N3C=NC4=C(NC5=CC=CC=C5OC4)C3=N2)=C1
+2024-12-11 15:49:29.509 | SUCCESS  | __main__:rollout:223 - Valid molecule: N1S(=O)(=O)C=C2C=CC(N3C=NC4=C(NC5=CC=CC=C5OC4)C3=N2)=C1 with affinity: 9.1
+2024-12-11 15:49:29.545 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.545 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.581 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.581 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.617 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.617 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.652 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.652 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.691 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.691 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.731 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.731 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.769 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.770 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.806 | INFO     | __main__:MCTS:277 - [0.0, 0.03225806451612903, 0.20967741935483872, 0.7580645161290323]
+2024-12-11 15:49:29.807 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.807 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.843 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.844 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.880 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.881 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.920 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.921 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.960 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.960 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:29.998 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:29.999 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:30.037 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:30.038 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:30.076 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:30.076 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:30.118 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:30.118 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:30.155 | INFO     | __main__:rollout:197 - Decoded SELFIES: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C
+2024-12-11 15:49:30.155 | SUCCESS  | __main__:rollout:223 - Valid molecule: NS(=O)(=O)C=C1C=CC(N2C=NC3=C(NC4=CC=CC=C4OC3)C2=N1)=C with affinity: 10.0
+2024-12-11 15:49:30.190 | INFO     | __main__:MCTS:277 - [1.0]
+2024-12-11 15:49:30.191 | INFO     | __main__:<module>:377 - Decoded SELFIES to SMILES: S1(=O)(=O)C=C2C=CC(N3C=NC4=C(NC5=CC=CC=C5OC4)C3=N2)=C1
+2024-12-11 15:49:30.191 | SUCCESS  | __main__:<module>:384 - Valid SMILES: S1(=O)(=O)C=C2C=CC(N3C=NC4=C(NC5=CC=CC=C5OC4)C3=N2)=C1
+2024-12-11 15:49:30.208 | INFO     | utils.docking:CaculateAffinity:61 - smina -r ./data/test_pdbs/1a9u/1a9u_protein.pdb -l experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903370.208145.pdb --autobox_ligand ./data/test_pdbs/1a9u/1a9u_ligand.sdf --autobox_add 10 --seed 1000 --exhaustiveness 9 >> experiment/test3/mps_freq_mcts_10_2024_12_11_15_26_20_30.pt_0_1a9u/1733903370.208643
+2024-12-11 15:49:35.934 | SUCCESS  | __main__:<module>:392 - Affinity: 8.8
+2024-12-11 15:49:35.937 | INFO     | __main__:<module>:406 - time 23.0
